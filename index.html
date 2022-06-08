@@ -6,10 +6,58 @@
     <title>Instagram</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="favicon/favicon.png">
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-sm border fixed-top" style="height: 54px; background-color: white;">
+        <div class="logo" style="margin-left: 192px;">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/instagram-text.png" height="50px" alt="Instagram" title="Instagram"/>
+            </a>
+            <button class="navbar-toggler"vtype="button"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mr-5"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse d-flex justify-content-center ml-5">
+            <form class="form-inline" role="search">
+                <input class="form-control " type="search" placeholder="Ara" aria-label="Search">
+            </form>
+        </div>
+        <div class="collapse navbar-collapse justify-content-center ml-5 mt-2" style="margin-left: auto;">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-home fa-lg mr-2 d-none d-sm-block mt-1"></i>
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="fab fa-facebook-messenger fa-lg mr-2 mt-1" style="color: black"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="far fa-compass fa-lg mr-2 mt-1" style="color: black"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="far fa-heart fa-lg mr-2 mt-1" style="color: black"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/mehmet.erdem.vural/" target="_blank">
+                      <img src="image/profil.png" class="mb-2" style="width: 23px; height: 23px; border-radius: 50%;"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+      
     
   </body>
 </html>

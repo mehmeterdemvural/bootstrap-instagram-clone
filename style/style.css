@@ -1,0 +1,9 @@
+::placeholder{
+    background-image: url(/image/search-solid.svg);
+    background-position-x: 33%;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    text-align: center;
+    height: 28px;
+    width: 216px;
+}
