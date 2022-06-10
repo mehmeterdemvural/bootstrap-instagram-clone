@@ -7,3 +7,17 @@
     height: 28px;
     width: 216px;
 }
+#sticky-sidebar{
+    position: fixed;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+.rightpanellinks{
+    color: #C7C7C7;
+    text-decoration: none;
+    font-size: 12px;
+
+}
